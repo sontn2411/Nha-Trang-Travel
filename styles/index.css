@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-color-1: #0066b5;
+  --color-color-2: #e8f3f8;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+@keyframes scaleIn {
+  to {
+    transform: scale(1);
+  }
+}
+
+.scale-in-image {
+  transform: scale(1.1) !important;
+  animation: scaleIn 5s ease-out forwards !important;
+}

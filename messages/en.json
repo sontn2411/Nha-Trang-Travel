@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "title": "Hello!",
+    "description": "This is the homepage in English."
+  },
+  "Header": {
+    "title": "Nha Trang – Agarwood Tower",
+    "desc": "Experience the beauty and fragrance of the coast"
+  },
+  "Menu": {
+    "open": "Menu",
+    "close": "Close"
+  }
+}

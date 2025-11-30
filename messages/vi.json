@@ -1,0 +1,14 @@
+{
+  "Home": {
+    "title": "Xin chào!",
+    "description": "Đây là trang chủ bằng tiếng Việt."
+  },
+  "Header": {
+    "title": "Nha Trang – Tháp Trầm Hương",
+    "desc": "Trải nghiệm vẻ đẹp và hương sắc miền biển"
+  },
+  "Menu": {
+    "open": "Mục",
+    "close": "Đóng"
+  }
+}
