@@ -4,8 +4,15 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 
 const SectionTwo = () => {
   return (
-    <div className='grid grid-cols-6 auto-rows-2 gap-x-3 gap-y-4'>
-      <div className='col-span-2 h-[445px] bg-color-3 rounded-xl relative overflow-hidden'>
+    <div className='grid grid-cols-6 grid-rows-2 gap-3'>
+      <div
+        className='col-span-3 h-[445px] bg-cover bg-center rounded-xl'
+        style={{
+          backgroundImage:
+            'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-2.jpeg")',
+        }}
+      ></div>
+      <div className='col-span-3 col-start-4 h-[445px] bg-color-3 rounded-xl relative overflow-hidden'>
         <div className='absolute inset-0 flex flex-col items-center justify-center gap-4 px-4 text-center'>
           <Image
             src={logoPonaga.src}
@@ -24,36 +31,25 @@ const SectionTwo = () => {
           </button>
         </div>
       </div>
-
       <div
-        className='col-span-4 col-start-3  h-[445px] bg-cover bg-center rounded-xl'
-        style={{
-          backgroundImage:
-            'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-2.jpeg")',
-        }}
-      ></div>
-
-      <div
-        className='col-span-2 row-start-2 h-80 bg-cover bg-center rounded-xl'
+        className='col-span-2 row-start-2 h-[445px] bg-cover bg-center rounded-xl'
         style={{
           backgroundImage:
             'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-4.jpeg")',
         }}
       ></div>
-
       <div
-        className='col-span-2 col-start-3 row-start-2 h-80 bg-cover bg-center rounded-xl'
+        className='col-span-2 col-start-3 row-start-2 h-[445px] bg-cover bg-center rounded-xl'
         style={{
           backgroundImage:
             'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-9.jpeg")',
         }}
       ></div>
-
       <div
-        className='col-span-2 col-start-5 row-start-2 h-80 bg-cover bg-center rounded-xl'
+        className='col-span-2 col-start-5 row-start-2 h-[445px] bg-cover bg-center rounded-xl'
         style={{
           backgroundImage:
-            'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-3.jpeg")',
+            'url("https://kongforest.com/FileStorage/content/images/thap-ba-ponagar-nha-trang-9.jpeg")',
         }}
       ></div>
     </div>
