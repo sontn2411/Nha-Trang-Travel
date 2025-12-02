@@ -1,5 +1,6 @@
 import BannerSlider from '@/components/pages/home/Banner'
 import SectionOne from '@/components/pages/home/SectionOne'
+import SectionTwo from '@/components/pages/home/SectionTwo'
 
 import { useTranslations } from 'next-intl'
 
@@ -10,7 +11,10 @@ export default function Home() {
     <div className=' '>
       <BannerSlider />
 
-      <SectionOne />
+      <div className='mt-24 px-4 flex flex-col gap-3'>
+        <SectionOne />
+        <SectionTwo />
+      </div>
     </div>
   )
 }

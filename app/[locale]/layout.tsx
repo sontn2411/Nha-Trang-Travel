@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import '@/styles/index.css'
 import Header from '@/components/layout/header/Header'
 import { Metadata } from 'next'
+import { Geist } from 'next/font/google'
 
 export const metadata: Metadata = {
   title: 'Nha Trang Travel',

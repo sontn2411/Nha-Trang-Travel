@@ -15,6 +15,7 @@ import bgSectionOne from './images/bg-sectionOne.png'
 import beSanHo from './images/BeRanSanHo.jpg'
 import beRanSanHo from './images/BeRanSanHo.jpg'
 import saoBien from './images/SaoBien.jpg'
+import logoPonaga from './images/logo-ponaga.png'
 
 export {
   bgHeader,
@@ -34,4 +35,5 @@ export {
   saoBien,
   beRanSanHo,
   beSanHo,
+  logoPonaga,
 }

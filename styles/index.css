@@ -1,8 +1,14 @@
 @import 'tailwindcss';
+@import './fonts.css';
 
 @theme {
   --color-color-1: #0066b5;
   --color-color-2: #e8f3f8;
+  --color-color-3: #f0ecc7;
+  --color-color-4: #a0522d;
+
+  /* font */
+  --font-NotoSansCham: 'NotoSansCham', sans-serif;
 }
 
 body {

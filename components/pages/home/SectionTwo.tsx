@@ -2,9 +2,9 @@ import { logoPonaga } from '@/assets'
 import Image from 'next/image'
 import { FaArrowRightLong } from 'react-icons/fa6'
 
-const SectionOne = () => {
+const SectionTwo = () => {
   return (
-    <div className='grid grid-cols-6 auto-rows-2 gap-3'>
+    <div className='grid grid-cols-6 auto-rows-2 gap-x-3 gap-y-4'>
       <div className='col-span-2 h-[445px] bg-color-3 rounded-xl relative overflow-hidden'>
         <div className='absolute inset-0 flex flex-col items-center justify-center gap-4 px-4 text-center'>
           <Image
@@ -60,4 +60,4 @@ const SectionOne = () => {
   )
 }
 
-export default SectionOne
+export default SectionTwo
