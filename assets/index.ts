@@ -16,6 +16,7 @@ import beSanHo from './images/BeRanSanHo.jpg'
 import beRanSanHo from './images/BeRanSanHo.jpg'
 import saoBien from './images/SaoBien.jpg'
 import logoPonaga from './images/logo-ponaga.png'
+import bgEvent from './gif/event_bg.gif'
 
 export {
   bgHeader,
@@ -36,4 +37,5 @@ export {
   beRanSanHo,
   beSanHo,
   logoPonaga,
+  bgEvent,
 }
