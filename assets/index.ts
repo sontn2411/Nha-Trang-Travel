@@ -17,8 +17,10 @@ import beRanSanHo from './images/BeRanSanHo.jpg'
 import saoBien from './images/SaoBien.jpg'
 import logoPonaga from './images/logo-ponaga.png'
 import bgEvent from './gif/event_bg.gif'
+import diaryBg from './images/diary_bg.png'
 
 export {
+  diaryBg,
   bgHeader,
   logo,
   cloud,

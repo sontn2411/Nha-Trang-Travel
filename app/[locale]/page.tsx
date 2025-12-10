@@ -1,5 +1,6 @@
 import BannerSlider from '@/components/pages/home/Banner'
 import SectionEvents from '@/components/pages/home/SectionEvents'
+import SectionFacebook from '@/components/pages/home/SectionFacebook'
 import SectionInstagram from '@/components/pages/home/SectionInstagram'
 import SectionNews from '@/components/pages/home/SectionNews'
 import SectionOne from '@/components/pages/home/SectionOne'
@@ -21,6 +22,7 @@ export default function Home() {
       <SectionEvents />
       <SectionNews />
       <SectionInstagram />
+      <SectionFacebook />
     </div>
   )
 }
