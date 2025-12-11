@@ -18,8 +18,16 @@ import saoBien from './images/SaoBien.jpg'
 import logoPonaga from './images/logo-ponaga.png'
 import bgEvent from './gif/event_bg.gif'
 import diaryBg from './images/diary_bg.png'
+import map from './images/map.png'
+import diaryHashi from './images/diary_hashi.png'
+import diaryFune from './images/diary_fune.png'
+import diaryKamome from './images/diary_kamome.png'
 
 export {
+  diaryKamome,
+  diaryHashi,
+  diaryFune,
+  map,
   diaryBg,
   bgHeader,
   logo,

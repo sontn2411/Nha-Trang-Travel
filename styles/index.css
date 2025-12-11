@@ -27,3 +27,64 @@ body {
   transform: scale(1.1) !important;
   animation: scaleIn 5s ease-out forwards !important;
 }
+
+.bg-soft-grid {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 122, 255, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 122, 255, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@keyframes hashiAnimate {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -217px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.hashi-animate {
+  animation: hashiAnimate 1.5s steps(1) infinite;
+}
+
+@keyframes funeAnimate {
+  0% {
+    background-position: 0px 0px;
+  }
+  33% {
+    background-position: 0px -169px;
+  }
+  66% {
+    background-position: 0px -338px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.fune-animate {
+  animation: funeAnimate 2s steps(1) infinite;
+}
+
+@keyframes kamomeAnimate {
+  0% {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px -55px;
+  }
+  100% {
+    background-position: 0px 0px;
+  }
+}
+
+.kamome-animate {
+  animation: kamomeAnimate 1.5s steps(1) infinite;
+}
